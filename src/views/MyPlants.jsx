@@ -8,7 +8,7 @@ export default function MyPlants() {
     return JSON.parse(localStorage.getItem("myPlants")) || [];
   });
   const [filterText, setFilterText] = useState("");
-  const [editingId, setEditingId] = useState(null); // Track which plant is being edited
+  const [editingId, setEditingId] = useState(null); 
 
   useEffect(() => {
     localStorage.setItem("myPlants", JSON.stringify(plants));
@@ -17,7 +17,7 @@ export default function MyPlants() {
   const addPlant = (plant) => setPlants([...plants, plant]);
   const updatePlant = (updatedPlant) => {
     setPlants(plants.map(p => p.id === updatedPlant.id ? updatedPlant : p));
-    setEditingId(null); // stop editing after update
+    setEditingId(null); 
   };
   const deletePlant = (id) => setPlants(plants.filter(p => p.id !== id));
 

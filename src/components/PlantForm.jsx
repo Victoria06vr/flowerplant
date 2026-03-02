@@ -1,4 +1,4 @@
-// src/components/PlantForm.jsx
+
 import { useState } from "react";
 
 export default function PlantForm({ plant = {}, onSubmit }) {
