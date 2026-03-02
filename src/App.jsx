@@ -5,6 +5,7 @@ import MyPlants from './views/MyPlants'
 import About from './views/About'
 import Layout from './Layout'
 
+// GitHub Pages deploy requires a basename matching the repo name
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,7 +25,11 @@ const router = createBrowserRouter([
       }
     ]
   }
-]);
+],
+{
+  basename: "/flowerplant"
+}
+);
 
 function App() {
   return (

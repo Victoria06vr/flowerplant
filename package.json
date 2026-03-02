@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://<Victoria06vr>.github.io/<flowerplant>",
+  "homepage": "https://Victoria06vr.github.io/flowerplant",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
