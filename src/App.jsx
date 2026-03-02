@@ -8,12 +8,13 @@ import './App.css'
 function App() {
   return (
     <BrowserRouter basename="/flowerplant">
-      <Layout />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/myplants" element={<MyPlants />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="myplants" element={<MyPlants />} />
+          <Route path="about" element={<About />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   )
