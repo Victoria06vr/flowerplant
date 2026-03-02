@@ -1,0 +1,280 @@
+#root {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(241, 241, 241);
+}
+
+body {
+  margin: 0; 
+}
+
+header nav.headerNav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  padding: 30px 80px;
+  
+
+}
+
+header nav.headerNav h1 {
+  font-size: 40px;
+  color: rgb(5, 35, 13);
+  margin: 0;
+  
+
+}
+
+
+header nav.headerNav .navLinks {
+  display: flex;
+  gap: 10px;   
+}
+
+header nav.headerNav .navLinks a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header nav.headerNav .navLinks a:hover {
+  color: rgb(31, 110, 55);
+}
+
+/* logo link (h1) should not be underlined */
+header nav.headerNav > a {
+  text-decoration: none;
+  color: inherit;
+}
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: rgb(5, 35, 13);
+  color: white;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;        
+  justify-content: space-between; 
+  align-items: baseline; 
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.footer h1,
+.footer h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.footer h1 {
+  margin: 10px 0;
+  font-size: 40px;
+  
+}
+
+.footer p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer h2 {
+  font-size: 25px;
+}
+
+.infoFooter{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.footer h2,
+.footer p {
+  margin-bottom: 1px ;
+}
+
+.introduction{
+  text-align:  center;
+  padding: 100px;
+}
+
+.introduction h1{
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  color: rgb(5, 35, 13);
+}
+
+.introduction p{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.introduction h1,
+.introduction p {
+  margin-bottom: 1px ;
+}
+ 
+
+section {
+  display: flex;
+  align-items: center;      
+  justify-content: space-between;          
+  gap: 10px;  
+  padding: 0px 70px;
+
+}
+
+section .text {
+  margin: 20px 20px;
+  flex: 1;  
+  font-size: 20px;  
+  font-family: Arial, Helvetica, sans-serif;              
+}
+
+section h2{
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.textMission{
+  text-align: right;
+  margin: 20px 20px;
+  flex: 1;  
+  font-size: 20px;  
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.image {
+  display: flex;          
+  align-items: flex-start; 
+  justify-content: center; 
+  margin: 100px 30px;
+}
+
+.btn {
+  display: inline-block;      
+  background-color: rgb(5, 35, 13);
+  color: aliceblue;
+  text-decoration: none;
+  margin-top: 20px;           
+  padding: 10px 30px;   
+  font-size: 18px;
+  transition: background-color 0.3s;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.btn:hover {
+  background-color: rgb(31, 110, 55);
+}
+
+.sectionTwo {
+   display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  padding: 20px 90px;
+  padding-bottom: 80px;
+  gap: 20px;                
+}
+
+.guideTitle {
+  font-size: 2rem;
+  padding-top: 30px;
+  margin-bottom: 1.5rem; 
+  color: rgb(5, 35, 13); 
+  font-weight: 600;
+}
+
+.plantTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.plantTable th, .plantTable td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.plantTable th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
+
+.plantTable tr:nth-child(even) {
+  background-color: #f9f9f9;  
+}
+
+
+.createPart h2{
+  padding-bottom: -50px;
+}
+
+.plantTable button{
+  background-color: rgb(5, 35, 13);
+  color: aliceblue;
+  text-decoration: none;             
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif; 
+  margin: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  
+}
+
+
+.my-plants-page{
+  padding: 40px 80px;
+
+}
+
+.plant-form {
+  display: flex;
+  flex-wrap: wrap;  
+  max-width: 800px;     
+}
+
+.plant-form button{    
+  background-color: rgb(5, 35, 13);
+  color: aliceblue;
+  text-decoration: none;             
+  font-size: 15px;
+  transition: background-color 0.3s;
+  font-family: Arial, Helvetica, sans-serif; 
+  padding: 15px 50px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+
+.searchField {
+  width: 500px;
+  height: 30px;
+  padding: 5px 20px;
+  border-color: rgb(56, 56, 56);
+  background-color: #ebebeb;
+  font-size: 15px;
+  margin-bottom: -20px;
+}
+
+
+.searchField:hover{
+  background-color: #dfdfdf;  
+}
+
+.plant-form input {
+  flex: 1 1 120px;       /* each input grows to fill space, min 120px */
+  padding: 10px;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
