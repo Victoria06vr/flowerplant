@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import PlantForm from "../components/PlantForm";
 import SearchField from "../components/SearchField";
-
+import '../App.css'
 
 export default function MyPlants() {
   const [plants, setPlants] = useState(() => {

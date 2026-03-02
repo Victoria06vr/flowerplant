@@ -1,6 +1,8 @@
 import planttwo from "../assets/planttwo.jpg"
 import plantfour from "../assets/plantfour.jpg"
 import plantfive from "../assets/plantfive.jpg"
+import '../App.css'
+
 export default function About(){
     return(
         <main>
