@@ -10,6 +10,7 @@ export default function Footer() {
             <p><b>Address: </b>123 Botanical Lane, Green City, 2345 Copenhagen, Denmark</p>
             <p><b>Email: </b>flowplant123@flowerplant2026.dk</p>
             <p><b>Mobile: </b>+452076765</p>
+            <p>© 2026 Victoria Rusinova. All rights reserved.</p>
         </div>
         </div>
     </footer>
