@@ -44,7 +44,7 @@ header nav.headerNav .navLinks a:hover {
   color: rgb(31, 110, 55);
 }
 
-/* logo link (h1) should not be underlined */
+
 header nav.headerNav > a {
   text-decoration: none;
   color: inherit;
@@ -271,7 +271,7 @@ section h2{
 }
 
 .plant-form input {
-  flex: 1 1 120px;       /* each input grows to fill space, min 120px */
+  flex: 1 1 120px;      
   padding: 10px;
   font-size: 14px;
   margin-right: 20px;
